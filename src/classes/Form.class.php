@@ -8,6 +8,7 @@
  *
  * @author Bob Schockweiler <info@webfashion.in>
  * @see https://github.com/webfashionist/FormValidate
+ * @license https://www.gnu.org/licenses/agpl-3.0-standalone.html AGPL-3.0
  *
  */
 
