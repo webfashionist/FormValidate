@@ -1,0 +1,91 @@
+/* reset */
+* {
+    margin:0px;
+    padding:0px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color:#FAFAFA;
+    font-family:Calibri,Verdana,Helvetica,sans-serif;
+}
+
+
+/* page */
+.page-wrapper{
+    margin:0 auto;
+    width:450px;
+}
+
+
+/* form */
+.form-1{
+    margin:20px 0;
+    padding:20px;
+    background-color:#FFF;
+    border:#EFEFEF solid 2px;
+    box-shadow:0px 0px 5px 5px #EFEFEF;
+}
+
+.form-1 .form-item{
+    margin-bottom:5px;
+}
+
+.form-1 .form-item.add-margin{
+    margin-top:20px;
+}
+
+.form-1 .form-item:last-child{
+    margin-bottom:0px;
+}
+
+.form-1 .form-item.is-error{
+    padding:10px 15px;
+    border-left:red solid 2px;
+    color:red;
+}
+.form-1 .form-item.is-success{
+    padding:10px 15px;
+    border-left:green solid 2px;
+    color:green;
+}
+
+.form-1 .form-item label{
+    display:block;
+    padding:10px 5px;
+    color:#333;
+    font-weight:bold;
+}
+
+.form-1 .form-item label.is-inline{
+    display:inline;
+    font-weight:initial;
+}
+
+.form-1 .form-item input[type="text"], .form-1 .form-item input[type="email"], .form-1 .form-item input[type="number"], .form-1 .form-item select{
+    padding:10px 15px;
+    color:#333;
+    width:100%;
+}
+
+.form-1 .form-item input[type="submit"] {
+    padding:10px 15px;
+    background-color:#16a085;
+    border:none;
+    color:#FAFAFA;
+    cursor:pointer;
+    text-align:center;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    -webkit-transition:background-color 0.4s;
+    -moz-transition:background-color 0.4s;
+    transition:background-color 0.4s;
+}
+
+.form-1 .form-item input[type="submit"]:hover, .form-1 .form-item input[type="submit"]:focus{
+    background-color:#1abc9c;
+}
