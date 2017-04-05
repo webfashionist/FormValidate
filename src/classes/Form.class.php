@@ -12,10 +12,10 @@
  *
  */
 
-
+namespace webfashion;
 
 class Form {
-    
+
     private $data, $rules;
     protected $errors = array();
 

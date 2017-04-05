@@ -1,7 +1,7 @@
 <?php
 require_once "classes/Form.class.php";
 
-
+use webfashion\Form;
 
 
 ?><!DOCTYPE html>
