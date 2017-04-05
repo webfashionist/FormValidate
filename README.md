@@ -4,7 +4,7 @@ Basic form validation in PHP
 
 ## Usage
 
-1. Include the class from `src/classes/Form.class.php` wherever you need the PHP form validator.
+1. Include the class located in `FormValidate/Form.class.php` wherever you need the PHP form validator.
 
 2. Create the rules array for your existing form:
 
@@ -36,7 +36,7 @@ Existing rule keys are:
 3. Initialize the form validator with the `$_POST` data and the created rules:
 
 ```php
-use webfashion\Form;
+use FormValidate\Form;
 $Form = new Form($_POST, $rules);
 ```
 
