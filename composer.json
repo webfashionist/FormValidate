@@ -1,5 +1,5 @@
 {
-  "name": "FormValidate/Form",
+  "name": "form-validate/form",
   "description": "Basic form validation in PHP Edit",
   "keywords": ["validation","validator","form"],
   "minimum-stability": "stable",
