@@ -1,7 +1,7 @@
 <?php
-require_once "classes/Form.class.php";
+require_once "../FormValidate/Form.class.php";
 
-use webfashion\Form;
+use FormValidate\Form;
 
 
 ?><!DOCTYPE html>

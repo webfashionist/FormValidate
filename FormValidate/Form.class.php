@@ -12,7 +12,7 @@
  *
  */
 
-namespace webfashion;
+namespace FormValidate;
 
 class Form {
 
@@ -145,7 +145,7 @@ class Form {
                        			$this->errors[] = 'Please enter a valid name.';
                        		}
                             break;
-                       		
+
                         case "phone":
                             if($condition === true && !$this->phone($value)) {
                                 // field must be a valid phone number
