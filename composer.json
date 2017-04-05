@@ -1,0 +1,19 @@
+{
+  "name": "FormValidate/Form",
+  "description": "Basic form validation in PHP Edit",
+  "keywords": ["validation","validator","form"],
+  "minimum-stability": "stable",
+  "version": "1.0.0",
+  "homepage": "https://github.com/webfashionist/FormValidate",
+  "license": "AGPL-3.0",
+  "authors": [
+    {
+      "name": "Bob Schockweiler",
+      "email": "bob.schockweiler@webfashion.eu",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4 || >=7.0"
+  }
+}
