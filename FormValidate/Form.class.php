@@ -142,7 +142,7 @@ class Form {
                        	case "alphabetical":
                        		if($condition === true && !$this->alphabetical($value)) {
                        			// field must be alphabetical
-                       			$this->errors[] = 'Please enter a valid name.';
+                       			$this->errors[] = 'Please use only alphabetical characters for the '.$this->rules[$name]["label"].' field.';
                        		}
                             break;
 
@@ -198,7 +198,7 @@ class Form {
     * @return bool
     **/
     protected function alphabetical($value) {
-    	return preg_match("/^[ a-z]{2,}$/is", $value);
+        return preg_match("/^[ äöüèéàáíìóòôîêÄÖÜÈÉÀÁÍÌÓÒÔÊa-z]{2,}$/is", $value);
     }
 
     /**
